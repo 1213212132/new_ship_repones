@@ -182,6 +182,8 @@ video {
   width: 100%;
   height: 100%;
 
+  overflow: hidden;
+
 }
 
 .video_wrap .slogan {
@@ -1104,6 +1106,15 @@ video {
 
 
 @media (max-width:768px) {
+  body {
+    overflow-x: hidden;
+
+  }
+
+  .wrap {
+    min-width: 1200px;
+    font-family: 'GmarketSansMedium';
+  }
 
   .header {
 
@@ -1944,7 +1955,9 @@ video {
 }
 
 
-@media (max-widht : 768px) {
+@media (max-width : 768px) {
+
+  .news {}
 
   .news .left .label {
     font-family: 'OTWelcomeRA';
@@ -1962,7 +1975,7 @@ video {
     text-align: center;
     background-color: #f2851f;
     z-index: 2;
-
+    display: none;
   }
 
   .news_list>.item {
@@ -1994,6 +2007,8 @@ video {
     width: 600px;
     height: 1px;
     background-color: #ddd;
+
+
   }
 
   .news_list>.item>.link:hover {
@@ -2013,7 +2028,10 @@ video {
   }
 
 
+  .news .box {
 
+    display: none;
+  }
 
 
 
