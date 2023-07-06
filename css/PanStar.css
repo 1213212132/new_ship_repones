@@ -1324,11 +1324,14 @@ video {
   /* r */
   .mobile_btn {
     /* r */
+
+
     display: block;
 
     position: fixed;
+
     inset: 30px 30px auto auto;
-    z-index: 1000;
+    z-index: 999;
     width: 30px;
     height: 30px;
     background: #ddd;
@@ -1399,13 +1402,13 @@ video {
   .main_visual .video_wrap .player {
 
     position: relative;
-    width: 100vw;
+    width: 100vh;
 
     top: 100px;
   }
 
   video {
-    width: 100%;
+    width: 100vh;
     height: 100%;
     overflow: hidden;
 
@@ -1610,6 +1613,7 @@ video {
     padding-bottom: 50px;
 
     /*r*/
+
     right: 25%;
   }
 
@@ -1635,7 +1639,8 @@ video {
     border-right: 1px solid #e6eaee;
 
     /*r*/
-    flex: 0 0 50%;
+    ;
+    flex: 0 1 100%;
     width: 100%;
     padding: 8px 8px 27px;
 
@@ -1644,6 +1649,7 @@ video {
 
   .ani .itm:last-child {
     border-right: 0;
+
   }
 
 
