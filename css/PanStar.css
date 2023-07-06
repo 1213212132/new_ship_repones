@@ -1330,7 +1330,7 @@ video {
 
     position: fixed;
 
-    inset: 30px 30px auto 630px;
+    inset: 30px 30px auto auto;
     z-index: 999;
     width: 30px;
     height: 30px;
